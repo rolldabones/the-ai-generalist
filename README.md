@@ -1,15 +1,19 @@
 # The AI Generalist
 
+**v1.1.0 · 14 July 2026 · One-day corporate workshop · License: CC BY-NC-SA 4.0**
+
+A durable operating method for working professionals: what an LLM is, a repeatable prompting workflow, a tool selection map, governed workflow patterns and an AI governance, risk management and compliance (AI GRC) minimum control set. Usable as a participant primer, an instructor runbook and a reference map with live links.
+
 Recommended program (inspiration): https://www.outskill.com/2-day-ai-mastermind
 
 ## Learning Objectives
 By the end of this workshop participants will be able to:
 1. Explain, at a working level, what a large language model (LLM) is, what it can and cannot do, and why failure modes are predictable.
 2. Use a repeatable prompting workflow to produce higher quality outputs with fewer retries.
-3. Choose the right tool for a task across chat, search, documents, meetings, coding, image, video, and voice agents.
+3. Choose the right tool for a task across chat, search, documents, meetings, coding, image, video and voice agents.
 4. Design a simple “mix and remix” workflow across tools (prompt → backend agent → front-end).
-5. Apply **Slow AI** and **Final Liability rests with the Human** to real corporate use cases using an AI governance, risk management, and compliance (AI GRC) lens.
-6. Build a lightweight control set: scope, data handling, logging, human gates, evaluation, escalation, and change management.
+5. Apply **Slow AI**, **Informed Intent** and **Final Liability rests with the Human** to real corporate use cases using an AI governance, risk management and compliance (AI GRC) lens.
+6. Build a lightweight control set: scope, data handling, logging, human gates, evaluation, escalation and change management.
 
 (Teaching note: Read the objectives aloud. Ask participants to pick one objective they care about most. Use that to weight time allocation.)
 
@@ -49,13 +53,13 @@ AI is now a general capability layer across functions. “Generalist” does not
 (Teaching note: Make the promise explicit. This is a repeatable operating method, not hype.)
 
 ### 1.2 Your leverage is experience and context
-Models can draft, summarize, transform, plan, and assist with code. You supply:
+Models can draft, summarize, transform, plan and assist with code. You supply:
 - Objectives and constraints
 - Edge cases and acceptable risk
 - Reality checks and tradeoffs
 - The decision and the owner
 
-(Teaching note: Run the “missing context” drill: “Draft a policy.” Then ask: “What does the model not know about our regulators, customers, systems, and internal risk appetite?” Capture answers.)
+(Teaching note: Run the “missing context” drill: “Draft a policy.” Then ask: “What does the model not know about our regulators, customers, systems and internal risk appetite?” Capture answers.)
 
 ### 1.3 Learn by building, but govern the build
 Practical loop:
@@ -68,7 +72,7 @@ Practical loop:
 
 ---
 
-## 2) Slow AI, Final Liability, and AI GRC
+## 2) Slow AI, Informed Intent, Final Liability and AI GRC
 
 ### 2.1 Slow AI (operating posture)
 Slow AI does not mean slow work. It means governed work:
@@ -85,7 +89,16 @@ Translate posture into controls:
 - Change control (roll forward, roll back)
 - Stop rules (when the workflow must halt)
 
-### 2.2 Final Liability rests with the Human (accountability rule)
+### 2.2 Informed Intent (authorization gate)
+No AI workflow goes into production use without explicit pre-authorization that specifies:
+- Purpose: what the workflow is for
+- Scope: what it may and may not touch
+- Limits: data boundaries, action boundaries, tolerance thresholds
+- A named owner who granted the authorization
+
+(Teaching note: Informed Intent is the gate before the build; Slow AI is the posture during operation. If nobody can produce the authorization, the workflow is ungoverned by definition.)
+
+### 2.3 Final Liability rests with the Human (accountability rule)
 Every AI-assisted output attaches to a named human who:
 - Has decision authority
 - Understands limits
@@ -94,8 +107,8 @@ Every AI-assisted output attaches to a named human who:
 
 (Teaching note: Ask for a name, not a role. “Who signs it” is the fastest truth test.)
 
-### 2.3 AI GRC minimum control set
-Treat AI as a capability that changes decision quality, record creation, process velocity, and risk pathways.
+### 2.4 AI GRC minimum control set
+Treat AI as a capability that changes decision quality, record creation, process velocity and risk pathways.
 
 Minimum control set (workable in most organizations):
 1. Use-case registry: what AI is doing, where, for whom, by which owner
@@ -111,7 +124,7 @@ Reference anchors:
 - NIST AI Risk Management Framework overview: https://www.nist.gov/itl/ai-risk-management-framework
 - NIST AI RMF 1.0 (PDF): https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf
 
-⧉ Biggest recurring gap: adoption outruns ownership, allowed data, stop rules, and logging.
+⧉ Biggest recurring gap: adoption outruns ownership, allowed data, stop rules and logging.
 
 ---
 
@@ -130,15 +143,15 @@ Reference anchors:
 2. Embeddings: tokens map to vectors capturing relationships in meaning
 3. Transformer attention: model weights which prior tokens matter most
 4. Next-token prediction: model predicts the next token repeatedly
-5. Response generation: predictions become text, code, or structured outputs
+5. Response generation: predictions become text, code or structured outputs
 
 Anchor sentence:
 - An LLM predicts plausible next tokens, not truth.
 
 ### 3.3 Practical implications you can use immediately
-- Strong at drafting, summarizing, transforming, patterning, and code assistance
+- Strong at drafting, summarizing, transforming, patterning and code assistance
 - Weak at guaranteed factuality without retrieval and verification
-- Output quality depends heavily on constraints, context, and evaluation
+- Output quality depends heavily on constraints, context and evaluation
 
 (Teaching note: Ask: “What is the cost of being wrong here?” Use that to justify checks and gates.)
 
@@ -181,7 +194,7 @@ Helpful references:
 ## 5) Landscape: models vs assistants
 Think in two layers:
 - Models: engines (capabilities, context length, latency, cost)
-- Assistants: products packaging models with UX, memory, tools, and connectors
+- Assistants: products packaging models with UX, memory, tools and connectors
 
 Selection heuristics:
 1. Risk: higher-risk tasks require stronger controls, not just “better models”
@@ -195,7 +208,7 @@ Selection heuristics:
 ---
 
 ## 6) Tooling map for an AI Generalist
-Goal: not to use everything. Goal: recognize categories and compose workflows safely.
+Goal: not to use everything. Goal: recognize categories and compose workflows safely. Tools churn; the categories are the durable layer.
 
 (Teaching note: Assign each category to a group to test and report back: strengths, failure modes, data touched, minimum controls.)
 
@@ -210,7 +223,6 @@ Goal: not to use everything. Goal: recognize categories and compose workflows sa
 
 ### B) Research and notes
 - NotebookLM: https://notebooklm.google/
-- Chronicle: https://chroniclehq.com/
 - Granola: https://www.granola.ai/
 
 ### C) Meetings and transcription
@@ -227,13 +239,14 @@ Goal: not to use everything. Goal: recognize categories and compose workflows sa
 ### E) Spreadsheets and “AI in cells”
 - Numerous AI: https://numerous.ai/
 
-### F) Images and design
+### F) Images, design and presentations
 - Midjourney: https://www.midjourney.com/
 - Runway: https://runwayml.com/
 - Krea: https://www.krea.ai/
 - Leonardo: https://leonardo.ai/
 - Magnific: https://magnific.ai/
 - Phot AI: https://www.phot.ai/
+- Chronicle (AI presentations): https://chroniclehq.com/
 
 ### G) Video generation and avatars
 - HeyGen: https://www.heygen.com/
@@ -302,12 +315,12 @@ Example composition:
 1. Define role and allowed actions
 2. Write the call script as policy, not improvisation
 3. Add hard stops and escalation triggers
-4. Log calls, decisions, and exceptions
+4. Log calls, decisions and exceptions
 
 (Teaching note: Keep it to safe scenarios: intake, triage, scheduling, internal helpdesk.)
 
 ### 7.4 Pattern 4: Local hosting when privacy constraints are real
-- Use local models for privacy, cost control, or offline work
+- Use local models for privacy, cost control or offline work
 - Treat local models as still risky: hallucinations persist, tool access can still leak
 - Keep the same controls: gates, logs, evals, rollback
 
@@ -318,7 +331,7 @@ Example composition:
 ### 8.1 MCP is essential
 MCP is a standard for connecting AI applications to tools and data sources.
 - MCP home: https://modelcontextprotocol.io/
-- MCP specification: https://modelcontextprotocol.io/specification/2025-11-25
+- MCP specification (current stable, 2025-11-25): https://modelcontextprotocol.io/specification/2025-11-25
 
 (Teaching note: MCP is the port. What you plug into it determines capability and risk.)
 
@@ -339,8 +352,9 @@ Controls:
 
 ### 8.3 Threat literacy you can actually use
 Baseline references:
-- OWASP Top 10 for LLM Applications: https://owasp.org/www-project-top-10-for-large-language-model-applications/
+- OWASP Top 10 for LLM Applications (current 2025 list, OWASP GenAI Security Project): https://genai.owasp.org/llm-top-10/
 - MITRE ATLAS: https://atlas.mitre.org/
+- OWASP LLM Top 10 legacy project page: https://owasp.org/www-project-top-10-for-large-language-model-applications/
 - OWASP LLM Top 10 project repository: https://github.com/OWASP/www-project-top-10-for-large-language-model-applications
 
 (Teaching note: Do not overcomplicate. One habit: list tools and data access, then design gates.)
@@ -381,7 +395,7 @@ Safe rules:
 ---
 
 ## 11) Corporate use cases (cross-functional)
-(Teaching note: Pick 2–3 based on audience. For each: define decision owner, data classification, and stop rules.)
+(Teaching note: Pick 2–3 based on audience. For each: define decision owner, data classification and stop rules.)
 
 ### Legal and compliance
 - Contract drafting support with clause libraries and structured checklists
@@ -401,7 +415,7 @@ Safe rules:
 ### Engineering and product
 - Prototype internal tools quickly
 - Spec writing, test generation, documentation
-- Agent workflows touching tickets, repos, and deployments, with gates
+- Agent workflows touching tickets, repos and deployments, with gates
 
 ---
 
@@ -416,7 +430,7 @@ Safe rules:
 
 ### Module 2: Tool bake-off
 - Same task across ChatGPT, Claude, Gemini, Perplexity
-- Score correctness, usefulness, structure, and edit effort
+- Score correctness, usefulness, structure and edit effort
 - Choose a default tool by task type
 
 ### Module 3: Build a “Tiny Servant” workflow spec
@@ -460,20 +474,21 @@ Safe rules:
 - NIST AI RMF overview: https://www.nist.gov/itl/ai-risk-management-framework
 - NIST AI RMF 1.0 (PDF): https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf
 - MITRE ATLAS: https://atlas.mitre.org/
-- OWASP LLM Top 10: https://owasp.org/www-project-top-10-for-large-language-model-applications/
+- OWASP Top 10 for LLM Applications (current 2025 list): https://genai.owasp.org/llm-top-10/
 - OWASP LLM Top 10 repo: https://github.com/OWASP/www-project-top-10-for-large-language-model-applications
 
 ### Level 2: building and connecting tools
 - MCP home: https://modelcontextprotocol.io/
-- MCP specification: https://modelcontextprotocol.io/specification/2025-11-25
+- MCP specification (current stable, 2025-11-25): https://modelcontextprotocol.io/specification/2025-11-25
 - OpenRouter: https://openrouter.ai/
 - Apify docs: https://docs.apify.com/
 - Vapi docs: https://docs.vapi.ai/
 
 ### Level 3: management systems and governance
-- ISO/IEC 42001 standard overview: https://www.iso.org/standard/42001
+- ISO/IEC 42001:2023 standard overview: https://www.iso.org/standard/42001
 - ISO 42001 explained: https://www.iso.org/home/insights-news/resources/iso-42001-explained-what-it-is.html
-- NIST GenAI profile (AI RMF profile for GenAI) (PDF): https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
+- NIST GenAI profile (AI RMF profile for GenAI, NIST AI 600-1) (PDF): https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
+- EU AI Act (Regulation (EU) 2024/1689): https://eur-lex.europa.eu/eli/reg/2024/1689/oj
 
 ### Reading Map (by role)
 - Executives and functional leaders
@@ -482,20 +497,21 @@ Safe rules:
   3. ISO 42001 explained: https://www.iso.org/home/insights-news/resources/iso-42001-explained-what-it-is.html
 
 - Workflow owners and operators
-  1. OWASP LLM Top 10: https://owasp.org/www-project-top-10-for-large-language-model-applications/
+  1. OWASP Top 10 for LLM Applications: https://genai.owasp.org/llm-top-10/
   2. MCP home: https://modelcontextprotocol.io/
   3. NotebookLM: https://notebooklm.google/
 
 - Security and IT
   1. MITRE ATLAS: https://atlas.mitre.org/
-  2. OWASP LLM Top 10: https://owasp.org/www-project-top-10-for-large-language-model-applications/
+  2. OWASP Top 10 for LLM Applications: https://genai.owasp.org/llm-top-10/
   3. MCP specification: https://modelcontextprotocol.io/specification/2025-11-25
   4. Apify docs: https://docs.apify.com/
 
 - Legal and compliance
   1. ISO/IEC 42001 overview: https://www.iso.org/standard/42001
   2. NIST AI RMF 1.0 (PDF): https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf
-  3. OWASP LLM Top 10: https://owasp.org/www-project-top-10-for-large-language-model-applications/
+  3. EU AI Act (Regulation (EU) 2024/1689): https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+  4. OWASP Top 10 for LLM Applications: https://genai.owasp.org/llm-top-10/
 
 - Engineering and product
   1. MCP home: https://modelcontextprotocol.io/
@@ -555,7 +571,7 @@ Shared discipline:
 ### 15.3 Web fundamentals you must know (minimum)
 Core mental model: client-server requests and responses, including HTTP status codes.
 - MDN HTTP overview: https://developer.mozilla.org/en-US/docs/Web/HTTP
-- MDN HTTP response status codes: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+- MDN HTTP response status codes: https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
 
 ### 15.4 The Vault (project data store), clarified
 “Vault” = data relevant to the project, treated as a first-class component.
@@ -581,7 +597,7 @@ B) Accessibility baseline
 
 C) Performance baseline  
 Use Core Web Vitals (LCP, INP, CLS) plus measurement tooling:
-- Core Web Vitals overview: https://web.dev/vitals/
+- Core Web Vitals overview: https://web.dev/articles/vitals
 
 D) Quality checks, fast  
 - Lighthouse: https://developer.chrome.com/docs/lighthouse/overview/
@@ -619,11 +635,42 @@ Prompt structure references:
 
 ---
 
+## Regulatory and standards currency
+
+Framework and standards references in this document were verified on 14 July 2026 (KST):
+
+- **NIST AI RMF 1.0** (NIST AI 100-1, January 2023) remains the current published version. NIST states the AI RMF 1.0 is being revised pursuant to America's AI Action Plan; no revised version has been published as of the verification date. The Generative AI Profile (NIST AI 600-1, July 2024) remains current.
+- **ISO/IEC 42001:2023** (Edition 1, published December 2023) is the current edition of the AI management system standard.
+- **OWASP Top 10 for LLM Applications**: the current list is the 2025 edition, maintained under the OWASP GenAI Security Project (genai.owasp.org). The owasp.org project page hosts the archived v1.1 (2023) list.
+- **MCP specification**: the current stable revision is 2025-11-25. A 2026-07-28 revision is at release-candidate stage with final publication targeted for 28 July 2026; links here will be reviewed after that release.
+- **EU AI Act** (Regulation (EU) 2024/1689) is cited as a reading reference only; obligations phase in on a statutory timetable and their current status should be verified with counsel at time of use.
+
+This is a training reference, not a compliance representation. Verify the current status of any framework, standard or regulation before relying on it.
+
+---
+
+## Part of the ecosystem
+
+This workshop is one entry point into a larger body of AI governance, risk management and compliance work. The canonical map of all repositories is [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md) in the profile repository.
+
+Nearest neighbors:
+- [slow-ai-kitchen](https://github.com/rolldabones/slow-ai-kitchen): the 12-step governed AI methodology this workshop compresses into one day
+- [grc-workbook](https://github.com/rolldabones/grc-workbook): the module-by-module instrument for building the integrated GRC capability the control set here previews
+- [AI-Governance-Academy](https://github.com/rolldabones/AI-Governance-Academy): prompt templates for client-facing governance engagements, a natural follow-on for workshop participants
+- [ai-governance-for-boards](https://github.com/rolldabones/ai-governance-for-boards): where the accountability questions raised here go when they reach the board
+- [the-ungoverned-channel](https://github.com/rolldabones/the-ungoverned-channel): a live case study of what happens when the controls taught here are absent
+
+---
+
 ## Closing: the AI Generalist’s rule set
 1. Start with the decisions.
 2. Use AI to accelerate drafts, not to replace accountability.
-3. Constrain scope, control data, and log the work.
+3. Constrain scope, control data and log the work.
 4. Build small, ship safely, iterate.
 5. Final Liability rests with the Human.
+
+---
+
+**v1.1.0 · 14 July 2026 · License: [CC BY-NC-SA 4.0](LICENSE) · Changes: [CHANGELOG.md](CHANGELOG.md)**
 
 Final Liability rests with the Human.
