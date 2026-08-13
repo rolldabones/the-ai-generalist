@@ -1,6 +1,6 @@
 # The AI Generalist
 
-**v1.1.0 · 14 July 2026 · One-day corporate workshop · License: CC BY-NC-SA 4.0**
+**v1.1.1 · 13 August 2026 · One-day corporate workshop · License: CC BY-NC-SA 4.0**
 
 A durable operating method for working professionals: what an LLM is, a repeatable prompting workflow, a tool selection map, governed workflow patterns and an AI governance, risk management and compliance (AI GRC) minimum control set. Usable as a participant primer, an instructor runbook and a reference map with live links.
 
