@@ -1,6 +1,6 @@
 # The AI Generalist
 
-**v1.1.1 · 13 August 2026 · One-day corporate workshop · License: CC BY-NC-SA 4.0**
+**v1.1.2 · 6 September 2026 · One-day corporate workshop · License: CC BY-NC-SA 4.0**
 
 A durable operating method for working professionals: what an LLM is, a repeatable prompting workflow, a tool selection map, governed workflow patterns and an AI governance, risk management and compliance (AI GRC) minimum control set. Usable as a participant primer, an instructor runbook and a reference map with live links.
 
@@ -653,6 +653,8 @@ This is a training reference, not a compliance representation. Verify the curren
 
 This workshop is one entry point into a larger body of AI governance, risk management and compliance work. The canonical map of all repositories is [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md) in the profile repository.
 
+The three doctrines are used in this repository as stated in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), the account's single normative statement. Where this repository restates a doctrine, it restates it at its own altitude and adds instruments, not doctrine (ECOSYSTEM.md protocol item 6).
+
 Nearest neighbors:
 - [slow-ai-kitchen](https://github.com/rolldabones/slow-ai-kitchen): the 12-step governed AI methodology this workshop compresses into one day
 - [grc-workbook](https://github.com/rolldabones/grc-workbook): the module-by-module instrument for building the integrated GRC capability the control set here previews
@@ -671,6 +673,12 @@ Nearest neighbors:
 
 ---
 
-**v1.1.0 · 14 July 2026 · License: [CC BY-NC-SA 4.0](LICENSE) · Changes: [CHANGELOG.md](CHANGELOG.md)**
+**v1.1.2 · 6 September 2026 · License: [CC BY-NC-SA 4.0](LICENSE) · Changes: [CHANGELOG.md](CHANGELOG.md)**
 
 Final Liability rests with the Human.
+
+## How to Cite
+
+> Paik, Son-U Michael. *The AI Generalist*, v1.1.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/the-ai-generalist
+
+A machine-readable citation is in [CITATION.cff](CITATION.cff).

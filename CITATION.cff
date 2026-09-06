@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you cite this work, please use the metadata below."
+title: "The AI Generalist"
+authors:
+  - family-names: "Paik"
+    given-names: "Son-U Michael"
+version: 1.1.2
+date-released: "2026-09-06"
+license: CC-BY-NC-SA-4.0
+repository-code: "https://github.com/rolldabones/the-ai-generalist"
+abstract: "One-day corporate workshop: LLM foundations, a repeatable prompting workflow, a tool selection map and the AI GRC minimum control set, with the three doctrines applied to real corporate use cases."
