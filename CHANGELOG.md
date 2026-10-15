@@ -2,6 +2,14 @@
 
 All notable changes to this repository are documented here. Versioning follows [Semantic Versioning](https://semver.org/). The README and this file version in lockstep; prior versions are superseded, never silently overwritten.
 
+## v1.1.3 (2026-10-15)
+
+Currency patch, session T1 of the whole-account review of 15 October 2026 (KST). Workshop content unchanged.
+
+- **MCP references re-pointed.** The three links to the 2025-11-25 specification (Day 1 reading, Day 2 reading, the three-step build list) now point to the published 2026-07-28 revision, which the currency note of 14 July 2026 described as a release candidate and promised to review after publication; neither v1.1.1 nor v1.1.2 logged that review, so this entry is it. The note records what changed in the revision: a stateless base protocol with per-request capability negotiation, Elicitation as the only client feature, Tasks, Skills over MCP and MCP Apps as extensions. Verified at modelcontextprotocol.io on 15 October 2026 (KST). Reviewer report 14, item 3; review doc §3.
+- **EU AI Act line** names Regulation (EU) 2026/1744 ([OJ L, 2026/1744](http://data.europa.eu/eli/reg/2026/1744/oj)) and the deferred dates and links to the account's canonical [EU AI Act currency note](https://github.com/rolldabones/ai-governance-for-boards/blob/main/05-jurisdictions/eu.md#eu-ai-act-currency-note), published the same day. Item 4.
+- Masthead (both occurrences), How to Cite and `CITATION.cff` to 1.1.3 in lockstep. All other files unchanged byte for byte.
+
 ## v1.1.2 (2026-09-06)
 
 Citation infrastructure, doctrine citation line and lockstep maintenance. Session C of the September 2026 improvement pack, one patch release per repository across all 21 public repositories.

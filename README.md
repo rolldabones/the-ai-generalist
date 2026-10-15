@@ -1,6 +1,6 @@
 # The AI Generalist
 
-**v1.1.2 · 6 September 2026 · One-day corporate workshop · License: CC BY-NC-SA 4.0**
+**v1.1.3 · 15 October 2026 · One-day corporate workshop · License: CC BY-NC-SA 4.0**
 
 A durable operating method for working professionals: what an LLM is, a repeatable prompting workflow, a tool selection map, governed workflow patterns and an AI governance, risk management and compliance (AI GRC) minimum control set. Usable as a participant primer, an instructor runbook and a reference map with live links.
 
@@ -331,7 +331,7 @@ Example composition:
 ### 8.1 MCP is essential
 MCP is a standard for connecting AI applications to tools and data sources.
 - MCP home: https://modelcontextprotocol.io/
-- MCP specification (current stable, 2025-11-25): https://modelcontextprotocol.io/specification/2025-11-25
+- MCP specification (current, 2026-07-28): https://modelcontextprotocol.io/specification/2026-07-28
 
 (Teaching note: MCP is the port. What you plug into it determines capability and risk.)
 
@@ -479,7 +479,7 @@ Safe rules:
 
 ### Level 2: building and connecting tools
 - MCP home: https://modelcontextprotocol.io/
-- MCP specification (current stable, 2025-11-25): https://modelcontextprotocol.io/specification/2025-11-25
+- MCP specification (current, 2026-07-28): https://modelcontextprotocol.io/specification/2026-07-28
 - OpenRouter: https://openrouter.ai/
 - Apify docs: https://docs.apify.com/
 - Vapi docs: https://docs.vapi.ai/
@@ -504,7 +504,7 @@ Safe rules:
 - Security and IT
   1. MITRE ATLAS: https://atlas.mitre.org/
   2. OWASP Top 10 for LLM Applications: https://genai.owasp.org/llm-top-10/
-  3. MCP specification: https://modelcontextprotocol.io/specification/2025-11-25
+  3. MCP specification: https://modelcontextprotocol.io/specification/2026-07-28
   4. Apify docs: https://docs.apify.com/
 
 - Legal and compliance
@@ -637,13 +637,13 @@ Prompt structure references:
 
 ## Regulatory and standards currency
 
-Framework and standards references in this document were verified on 14 July 2026 (KST):
+Framework and standards references in this document were verified on 14 July 2026 (KST), the MCP and EU AI Act lines re-verified on 15 October 2026 (KST):
 
 - **NIST AI RMF 1.0** (NIST AI 100-1, January 2023) remains the current published version. NIST states the AI RMF 1.0 is being revised pursuant to America's AI Action Plan; no revised version has been published as of the verification date. The Generative AI Profile (NIST AI 600-1, July 2024) remains current.
 - **ISO/IEC 42001:2023** (Edition 1, published December 2023) is the current edition of the AI management system standard.
 - **OWASP Top 10 for LLM Applications**: the current list is the 2025 edition, maintained under the OWASP GenAI Security Project (genai.owasp.org). The owasp.org project page hosts the archived v1.1 (2023) list.
-- **MCP specification**: the current stable revision is 2025-11-25. A 2026-07-28 revision is at release-candidate stage with final publication targeted for 28 July 2026; links here will be reviewed after that release.
-- **EU AI Act** (Regulation (EU) 2024/1689) is cited as a reading reference only; obligations phase in on a statutory timetable and their current status should be verified with counsel at time of use.
+- **MCP specification**: ~~the current stable revision is 2025-11-25. A 2026-07-28 revision is at release-candidate stage with final publication targeted for 28 July 2026; links here will be reviewed after that release.~~ Superseded 15 October 2026 (KST): the 2026-07-28 revision is published at modelcontextprotocol.io/specification/2026-07-28 and is current. Its base protocol is "Stateless, self-contained requests" with per-request capability negotiation; client features list Elicitation only, Sampling and Roots having left the core protocol; Tasks, Skills over MCP and MCP Apps are opt-in extensions. The three links in this document were re-pointed on that date, which is the review the 14 July 2026 note promised and the two patch releases since did not log.
+- **EU AI Act** (Regulation (EU) 2024/1689, as amended by Regulation (EU) 2026/1744 of 8 July 2026, in force 27 July 2026, which defers Annex III high-risk obligations to 2 December 2027 and Annex I to 2 August 2028) is cited as a reading reference only; the timetable as amended is stated once for the account in the [EU AI Act currency note](https://github.com/rolldabones/ai-governance-for-boards/blob/main/05-jurisdictions/eu.md#eu-ai-act-currency-note) in ai-governance-for-boards, and current status should be verified with counsel at time of use.
 
 This is a training reference, not a compliance representation. Verify the current status of any framework, standard or regulation before relying on it.
 
@@ -673,12 +673,12 @@ Nearest neighbors:
 
 ---
 
-**v1.1.2 · 6 September 2026 · License: [CC BY-NC-SA 4.0](LICENSE) · Changes: [CHANGELOG.md](CHANGELOG.md)**
+**v1.1.3 · 15 October 2026 · License: [CC BY-NC-SA 4.0](LICENSE) · Changes: [CHANGELOG.md](CHANGELOG.md)**
 
 Final Liability rests with the Human.
 
 ## How to Cite
 
-> Paik, Son-U Michael. *The AI Generalist*, v1.1.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/the-ai-generalist
+> Paik, Son-U Michael. *The AI Generalist*, v1.1.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/the-ai-generalist
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
