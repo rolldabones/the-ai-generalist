@@ -1,6 +1,6 @@
 # The AI Generalist
 
-**v1.1.3 · 15 October 2026 · One-day corporate workshop · License: CC BY-NC-SA 4.0**
+**v1.1.4 · 17 October 2026 · One-day corporate workshop · License: CC BY-NC-SA 4.0**
 
 A durable operating method for working professionals: what an LLM is, a repeatable prompting workflow, a tool selection map, governed workflow patterns and an AI governance, risk management and compliance (AI GRC) minimum control set. Usable as a participant primer, an instructor runbook and a reference map with live links.
 
@@ -8,12 +8,12 @@ Recommended program (inspiration): https://www.outskill.com/2-day-ai-mastermind
 
 ## Learning Objectives
 By the end of this workshop participants will be able to:
-1. Explain, at a working level, what a large language model (LLM) is, what it can and cannot do, and why failure modes are predictable.
+1. Explain, at a working level, what a large language model (LLM) is, what it can and cannot do and why its failure modes are predictable.
 2. Use a repeatable prompting workflow to produce higher quality outputs with fewer retries.
 3. Choose the right tool for a task across chat, search, documents, meetings, coding, image, video and voice agents.
 4. Design a simple “mix and remix” workflow across tools (prompt → backend agent → front-end).
 5. Apply **Slow AI**, **Informed Intent** and **Final Liability rests with the Human** to real corporate use cases using an AI governance, risk management and compliance (AI GRC) lens.
-6. Build a lightweight control set: scope, data handling, logging, human gates, evaluation, escalation and change management.
+6. Build a lightweight control set: the eight controls of section 2.4 (use-case registry, data rules, human gates, logging, evaluation, security, vendor and supply chain, change management).
 
 (Teaching note: Read the objectives aloud. Ask participants to pick one objective they care about most. Use that to weight time allocation.)
 
@@ -74,13 +74,11 @@ Practical loop:
 
 ## 2) Slow AI, Informed Intent, Final Liability and AI GRC
 
-### 2.1 Slow AI (operating posture)
-Slow AI does not mean slow work. It means governed work:
-- Visible
-- Explainable enough for the decision at hand
-- Auditable
-- Monitored
-- Pausable
+### 2.1 Slow AI (precondition)
+Slow AI: AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit. In workshop terms, a workflow is:
+- Governed: a named owner, defined boundaries and a working intervention path, so it is visible, monitored and pausable
+- Explained: the team can state why an output was produced, in terms the person affected can use, enough for the decision at hand
+- Audited: the evidence exists before it is asked for
 
 Translate posture into controls:
 - Versioning (prompt, model, tools)
@@ -92,18 +90,17 @@ Translate posture into controls:
 ### 2.2 Informed Intent (authorization gate)
 No AI workflow goes into production use without explicit pre-authorization that specifies:
 - Purpose: what the workflow is for
-- Scope: what it may and may not touch
-- Limits: data boundaries, action boundaries, tolerance thresholds
-- A named owner who granted the authorization
+- Authority: on whose authority it acts, given by a named human with the knowledge, evidence, authority, time and permission to give it
+- Boundaries: what it may and may not touch, with its data boundaries, action boundaries and tolerance thresholds
+- Exit: how the workflow is paused, rolled back and retired
 
-(Teaching note: Informed Intent is the gate before the build; Slow AI is the posture during operation. If nobody can produce the authorization, the workflow is ungoverned by definition.)
+(Teaching note: Informed Intent is the gate before the build. An authorization missing its exit is not an authorization. Slow AI is the condition the workflow must meet before the authorization issues and for as long as it runs. If nobody can produce the authorization, the workflow is ungoverned by definition.)
 
 ### 2.3 Final Liability rests with the Human (accountability rule)
-Every AI-assisted output attaches to a named human who:
-- Has decision authority
-- Understands limits
-- Owns consequences
-- Can stop the workflow
+Final Liability rests with the Human: every material outcome attaches to a named human owner with decision rights, oversight and the power to intervene. In workshop terms, the owner:
+- Holds the decision rights over the output
+- Holds oversight of the workflow and its limits
+- Has the power to intervene, including stopping the workflow
 
 (Teaching note: Ask for a name, not a role. “Who signs it” is the fastest truth test.)
 
@@ -671,14 +668,14 @@ Nearest neighbors:
 4. Build small, ship safely, iterate.
 5. Final Liability rests with the Human.
 
----
-
-**v1.1.3 · 15 October 2026 · License: [CC BY-NC-SA 4.0](LICENSE) · Changes: [CHANGELOG.md](CHANGELOG.md)**
-
-Final Liability rests with the Human.
-
 ## How to Cite
 
-> Paik, Son-U Michael. *The AI Generalist*, v1.1.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/the-ai-generalist
+> Paik, Son-U Michael. *The AI Generalist*, v1.1.4. GRC Solutions Korea, 2026. https://github.com/rolldabones/the-ai-generalist
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
+
+---
+
+**v1.1.4 · 17 October 2026 · License: [CC BY-NC-SA 4.0](LICENSE) · Changes: [CHANGELOG.md](CHANGELOG.md)**
+
+**Final Liability rests with the Human.**

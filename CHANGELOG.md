@@ -2,6 +2,16 @@
 
 All notable changes to this repository are documented here. Versioning follows [Semantic Versioning](https://semver.org/). The README and this file version in lockstep; prior versions are superseded, never silently overwritten.
 
+## v1.1.4 (2026-10-17)
+
+Doctrine short forms and the mechanical train, session T3 of the whole-account review of 15 October 2026 (KST); reviewer report 14, items 1, 5 and 23, and review doc sections 1 and 8.
+
+- **Section 2.2, Informed Intent, conformed to DOCTRINE.md v1.2.0 section 8.** The authorization now names the four elements of the instrument, purpose, authority, boundaries and exit; it had listed purpose, scope and limits with a named owner and omitted exit, which DOCTRINE.md section 2 says leaves no authorization at all. Scope and limits are folded into Boundaries; the owner becomes Authority, given by a human meeting the five authorizer conditions. The teaching note states the exit rule.
+- **Section 2.1, Slow AI, and section 2.3, Final Liability, conformed in the same way.** Slow AI is stated as the precondition, with the three tests (governed, explained, audited) carrying the earlier list of visible, monitored and pausable under "governed"; the heading reads "precondition" rather than "operating posture". Final Liability carries its sentence form and the three attributes, decision rights, oversight and the power to intervene; the earlier four-item list (decision authority, understanding of limits, ownership of consequences, ability to stop) did not reduce to them.
+- **Objective 6 cites the control set by section.** It had named seven controls (scope, data handling, logging, human gates, evaluation, escalation, change management) against the eight of section 2.4, omitting security and vendor and supply chain and naming two the set does not hold; it now lists the eight.
+- **House style.** One serial comma removed in Objective 1. How to Cite moves above the footer, so the closing line is the last line of the README, and it is set in bold; the closing line is added, last, to this changelog.
+- Masthead (both occurrences), How to Cite and `CITATION.cff` to 1.1.4 in lockstep. Tool map, modules and every other section unchanged.
+
 ## v1.1.3 (2026-10-15)
 
 Currency patch, session T1 of the whole-account review of 15 October 2026 (KST). Workshop content unchanged.
@@ -60,3 +70,7 @@ Original single-file workshop primer (README.md only; no license, changelog or t
 ---
 
 Final Liability rests with the Human.
+
+---
+
+**Final Liability rests with the Human.**
