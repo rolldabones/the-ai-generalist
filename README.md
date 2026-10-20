@@ -1,6 +1,6 @@
 # The AI Generalist
 
-**v2.0.0 · 18 October 2026 (KST) · One-day corporate workshop · License: CC BY-NC-SA 4.0**
+**v2.0.1 · 20 October 2026 (KST) · One-day corporate workshop · License: CC BY-NC-SA 4.0**
 
 A durable operating method for working professionals: what an LLM is, a repeatable prompting workflow, a tool selection map, governed workflow patterns and an AI governance, risk management and compliance (AI GRC) minimum control set. Usable as a participant primer, an instructor runbook and a reference map with live links.
 
@@ -68,7 +68,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *The AI Generalist*, v2.0.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/the-ai-generalist
+> Paik, Son-U Michael. *The AI Generalist*, v2.0.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/the-ai-generalist
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

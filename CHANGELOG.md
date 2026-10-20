@@ -2,6 +2,11 @@
 
 All notable changes to this repository are documented here. Versioning follows [Semantic Versioning](https://semver.org/). The README and this file version in lockstep; prior versions are superseded, never silently overwritten.
 
+## v2.0.1 (2026-10-20)
+
+- LICENSE: two defects against the Creative Commons legal code corrected (the space in 'ShareAlike. In'; the CC0 sentence of the closing notice). Operative terms unchanged.
+- README masthead, How to Cite and `CITATION.cff` to v2.0.1 in lockstep. Companion mastheads unchanged.
+
 ## v2.0.0 (2026-10-18)
 
 Front door and split into five files, session T7 of the whole-account review of 15 October 2026 (KST); review doc section 9 (change 6) and reviewer report 14, items 1, 3, 4, 5, 16 to 20, 23 and 25, and the :7 acknowledgments. Workshop content moved, not rewritten: every sentence of v1.1.4 is carried into one of the five files by programmatic slicing on the README's section headings, and the additions are listed here.
