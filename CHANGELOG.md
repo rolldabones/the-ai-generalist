@@ -2,6 +2,19 @@
 
 All notable changes to this repository are documented here. Versioning follows [Semantic Versioning](https://semver.org/). The README and this file version in lockstep; prior versions are superseded, never silently overwritten.
 
+## v2.0.2 (2026-10-20)
+
+Patch release. Independent review of 20 October 2026; changes made with Claude, approved by Michael Paik.
+
+- **Currency (README.md and participant-handout.md).** The OWASP Top 10 for LLM Applications 2026 (published 3 August 2026) is named as the current list and linked at genai.owasp.org/resource/owasp-genai-llm-top-10-2026/, and the owasp.org project page is described as pointing to the OWASP GenAI Security Project (GEN-01, GEN-02). The MCP line now says Roots, Sampling and Logging are deprecated in the 2026-07-28 revision (SEP-2577) and stay functional for at least twelve months, not that they left the protocol. The struck 2025-11-25 sentence and the maintenance history are removed from the note, because they are already recorded under v1.1.0 and v1.1.3 (GEN-03, GEN-11). The handout's EU AI Act reading names Regulation (EU) 2026/1744 and links its ELI and the account's EU AI Act currency note (GEN-08).
+- **Exercises (facilitator-guide.md and participant-handout.md).** Module 1 and handout 1.3 use a synthetic task, in line with the data rule for the day (GEN-04). Module 2 keeps the participant prerequisite of two accounts: the facilitator holds accounts on all four assistants compared and demonstrates on screen the ones a participant lacks. This is the option that changes the exercise least (GEN-06).
+- **Doctrine.** Handout 2.2 opens with the DOCTRINE.md section 8 Informed Intent sentence form, verbatim; it had limited the rule to "production use" (GEN-05).
+- **Tool map (tool-map.md, README.md).** Every URL was re-checked on 20 October 2026 (KST). Goose, Runway, Magnific and Kling were re-pointed to their new addresses, and the six hosts that answered with a bot check are named. The README counts 17 categories with entries, with Agentic coding tools open (GEN-07, GEN-18). NotebookLM is left as it stands.
+- **Readability.** "AI governance, risk management and compliance (AI GRC)" is spelled out on first use in the section 2 heading of the handout and of the facilitator guide (GEN-12; `CITATION.cff` keeps the AI GRC of the ECOSYSTEM.md role line). The handout's Definition of Done names the participant primer only (GEN-09). A note explains that the section numbers are kept from v1.1.4 (GEN-13). A stray glyph is removed from 2.4 (GEN-17). The `CITATION.cff` abstract is taken again from the current ECOSYSTEM.md role line (GEN-19).
+- **Terms used in earlier entries (GEN-14).** "The B3 guard" is the account check that reports a file making dated legal claims whose links reach no primary or official source. "D-C1" is the account decision of September 2026 that fixed the `CITATION.cff` house form described under v1.1.2. "Academy template 03 Mode B" is the curriculum and exercise pack mode of AI-Governance-Academy template 03 (executive workshop). "Reviewer report 14" is the independent reviewer's report on this repository in the whole-account review of 15 October 2026. Shipped entries are left as cut.
+- **Erratum (GEN-15).** The closing line of this file appears twice: once plain, above the last rule, and once in bold as the last line. The bold line at the foot is the closing line; the plain line above it is a duplicate and is to be read as deleted.
+- **Versions.** The README masthead, How to Cite, `CITATION.cff` and the mastheads of the four companion files move to v2.0.2 in lockstep, so every file now carries the repository version (GEN-20).
+
 ## v2.0.1 (2026-10-20)
 
 - LICENSE: two defects against the Creative Commons legal code corrected (the space in 'ShareAlike. In'; the CC0 sentence of the closing notice). Operative terms unchanged.

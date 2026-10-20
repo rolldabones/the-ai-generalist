@@ -2,7 +2,7 @@
 
 Son-U Michael Paik · CEO, GRC Solutions Korea
 
-**v2.0.0 · 18 October 2026 (KST)**
+**v2.0.2 · 20 October 2026 (KST)**
 
 The runbook for the one-day workshop. Participants read [participant-handout.md](participant-handout.md); the tool map is [tool-map.md](tool-map.md); the learning objectives, currency note and citation are in [README.md](README.md). The control set is stated once, in the handout's section 2.4, and nothing here varies it.
 
@@ -25,8 +25,8 @@ Modules 4 (voice agent tabletop) and 5 may swap; Module 4 fits a room with intak
 
 ## Materials and prerequisites
 
-- Participants: a laptop, an account on at least two core assistants (tool-map.md, A) approved by their organization and one recurring task from their own work described in a sentence, with no Client or personal data in it.
-- Facilitator: this guide, the handout printed or shared, the tool map with every link checked within the week, the Magic Prompt template as a fillable document, the ten-line Tiny Servant template as a fillable document and the operating checklist as a shared sheet.
+- Participants: a laptop, an account on at least two core assistants (tool-map.md, A) approved by their organization (Module 2 compares four; the facilitator demonstrates on screen the ones a participant has no account on) and one recurring task from their own work described in a sentence, with no Client or personal data in it.
+- Facilitator: this guide, the handout printed or shared, the tool map with every link checked within the week, an account on each of the four assistants Module 2 compares, the Magic Prompt template as a fillable document, the ten-line Tiny Servant template as a fillable document and the operating checklist as a shared sheet.
 - Room: projector or shared screen, a shared document for artifacts, timers visible to the facilitator.
 - Pre-read, sent a week before: handout sections 0 to 2 and the learning objectives in README.md.
 - Data rule for the day: synthetic inputs only in every exercise; nothing from a live matter, a Client or a person enters a tool.
@@ -91,7 +91,7 @@ Each note stood in the participant text at v1.1.4 as a parenthetical; the text i
 - Compare outputs
 
 ### Module 2: Tool bake-off
-- Same task across ChatGPT, Claude, Gemini, Perplexity
+- Same task across ChatGPT, Claude, Gemini, Perplexity; participants run the assistants they have accounts on and the facilitator demonstrates the rest on screen
 - Score correctness, usefulness, structure and edit effort
 - Choose a default tool by task type
 - Exercise data rule: synthetic inputs only; no Client data, no personal data and no confidential material enters any tool during the bake-off (control 2 of participant-handout.md section 2.4)

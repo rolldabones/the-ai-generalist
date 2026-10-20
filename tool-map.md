@@ -2,7 +2,7 @@
 
 Son-U Michael Paik · CEO, GRC Solutions Korea
 
-**v2.0.0 · 18 October 2026 (KST)**
+**v2.0.2 · 20 October 2026 (KST)**
 
 **Tool map as at 18 October 2026 (KST); links re-checked on 20 October 2026 (KST), last verified by the author on 14 July 2026 (CHANGELOG v1.1.0); re-verify before use**
 

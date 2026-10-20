@@ -2,7 +2,7 @@
 
 Son-U Michael Paik · CEO, GRC Solutions Korea
 
-**v2.0.0 · 18 October 2026 (KST)**
+**v2.0.2 · 20 October 2026 (KST)**
 
 Standalone; outside the workshop objectives. Section 15 of the workshop as it stood at v1.1.4, for novices building a website or a webapp with AI assistance.
 

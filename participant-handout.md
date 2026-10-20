@@ -2,7 +2,7 @@
 
 Son-U Michael Paik · CEO, GRC Solutions Korea
 
-**v2.0.0 · 18 October 2026 (KST)**
+**v2.0.2 · 20 October 2026 (KST)**
 
 The participant text of the one-day workshop, sections 0 to 11 and 14. Section numbers are kept from v1.1.4: sections 12 (practical exercises) and 13 (operating checklist) are in the facilitator guide and section 15 is [builder-primer.md](builder-primer.md). The learning objectives, the regulatory and standards currency note and the citation are in [README.md](README.md); the tool map is [tool-map.md](tool-map.md); the facilitator's agenda, teaching notes, exercises and operating checklist are in [facilitator-guide.md](facilitator-guide.md). The eight controls are stated once, in section 2.4.
 
