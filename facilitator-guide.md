@@ -44,7 +44,7 @@ Each note stood in the participant text at v1.1.4 as a parenthetical; the text i
 - 1.2 Your leverage is experience and context: Run the “missing context” drill: “Draft a policy.” Then ask: “What does the model not know about our regulators, customers, systems and internal risk appetite?” Capture answers.
 - 1.3 Learn by building, but govern the build: Curiosity is allowed. Production changes require controls and sign-off.
 
-### 2) Slow AI, Informed Intent, Final Liability and AI GRC
+### 2) Slow AI, Informed Intent, Final Liability and AI governance, risk management and compliance (AI GRC)
 - 2.2 Informed Intent (authorization gate): Informed Intent is the gate before the build. An authorization missing its exit is not an authorization. Slow AI is the condition the workflow must meet before the authorization issues and for as long as it runs. If nobody can produce the authorization, the workflow is ungoverned by definition.
 - 2.3 Final Liability rests with the Human (accountability rule): Ask for a name, not a role. “Who signs it” is the fastest truth test.
 
@@ -85,7 +85,7 @@ Each note stood in the participant text at v1.1.4 as a parenthetical; the text i
 (Teaching note: Each module is 20–40 minutes. Pick 3–5 depending on time.)
 
 ### Module 1: Prompt upgrade
-- Take a real task prompt
+- Take a synthetic task prompt
 - Convert it into the Magic Prompt structure
 - Add verification: assumptions, unknowns, self-check
 - Compare outputs

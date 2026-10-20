@@ -4,7 +4,7 @@ Son-U Michael Paik · CEO, GRC Solutions Korea
 
 **v2.0.0 · 18 October 2026 (KST)**
 
-The participant text of the one-day workshop, sections 0 to 11 and 14. The learning objectives, the regulatory and standards currency note and the citation are in [README.md](README.md); the tool map is [tool-map.md](tool-map.md); the facilitator's agenda, teaching notes, exercises and operating checklist are in [facilitator-guide.md](facilitator-guide.md). The eight controls are stated once, in section 2.4.
+The participant text of the one-day workshop, sections 0 to 11 and 14. Section numbers are kept from v1.1.4: sections 12 (practical exercises) and 13 (operating checklist) are in the facilitator guide and section 15 is [builder-primer.md](builder-primer.md). The learning objectives, the regulatory and standards currency note and the citation are in [README.md](README.md); the tool map is [tool-map.md](tool-map.md); the facilitator's agenda, teaching notes, exercises and operating checklist are in [facilitator-guide.md](facilitator-guide.md). The eight controls are stated once, in section 2.4.
 
 ## 0) Workshop contract: how we work today
 
@@ -20,10 +20,8 @@ Participants leave with:
 - One small, working workflow spec they can reuse at work
 
 ### 0.3 Definition of Done
-This note should be usable as:
+This handout should be usable as:
 - Participant primer
-- Instructor runbook
-- Reference map with live links
 
 ---
 
@@ -46,14 +44,14 @@ Models can draft, summarize, transform, plan and assist with code. You supply:
 
 ### 1.3 Learn by building, but govern the build
 Practical loop:
-1. Try a tool on a real task
+1. Try a tool on a synthetic task
 2. Compare outputs across 2–3 tools
 3. Add constraints and checks
 4. Log what worked as a reusable pattern
 
 ---
 
-## 2) Slow AI, Informed Intent, Final Liability and AI GRC
+## 2) Slow AI, Informed Intent, Final Liability and AI governance, risk management and compliance (AI GRC)
 
 ### 2.1 Slow AI (precondition)
 Slow AI: AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit. In workshop terms, a workflow is:
@@ -64,7 +62,7 @@ Slow AI: AI that cannot be governed, explained and audited is not deployed; the 
 Translate posture into controls: the eight controls of section 2.4, stated there once. Versioning of prompt, model and tools and the stop rules sit inside logging (control 4) and human gates (control 3); evaluation is control 5 and change control is control 8.
 
 ### 2.2 Informed Intent (authorization gate)
-No AI workflow goes into production use without explicit pre-authorization that specifies:
+Informed Intent: no AI system acts without prior authorization stating its purpose, authority, boundaries and exit, given by a human who meets the five authorizer conditions. In workshop terms, the authorization specifies:
 - Purpose: what the workflow is for
 - Authority: on whose authority it acts, given by a named human with the knowledge, evidence, authority, time and permission to give it
 - Boundaries: what it may and may not touch, with its data boundaries, action boundaries and tolerance thresholds
@@ -93,7 +91,7 @@ Reference anchors:
 - NIST AI Risk Management Framework overview: https://www.nist.gov/itl/ai-risk-management-framework
 - NIST AI RMF 1.0 (PDF): https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf
 
-⧉ Biggest recurring gap: adoption outruns ownership, allowed data, stop rules and logging.
+Biggest recurring gap: adoption outruns ownership, allowed data, stop rules and logging.
 
 ---
 
@@ -227,7 +225,7 @@ Controls:
 
 ### 8.3 Threat literacy you can actually use
 Baseline references:
-- OWASP Top 10 for LLM Applications (current 2025 list, OWASP GenAI Security Project): https://genai.owasp.org/llm-top-10/
+- OWASP Top 10 for LLM Applications 2026 (current list, published 3 August 2026, OWASP GenAI Security Project): https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/
 - MITRE ATLAS: https://atlas.mitre.org/
 - OWASP LLM Top 10 legacy project page: https://owasp.org/www-project-top-10-for-large-language-model-applications/
 - OWASP LLM Top 10 project repository: https://github.com/OWASP/www-project-top-10-for-large-language-model-applications
@@ -293,7 +291,7 @@ Safe rules:
 1. NIST AI RMF overview: https://www.nist.gov/itl/ai-risk-management-framework
 2. NIST AI RMF 1.0 (PDF): https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf
 3. MITRE ATLAS: https://atlas.mitre.org/
-4. OWASP Top 10 for LLM Applications (current 2025 list): https://genai.owasp.org/llm-top-10/
+4. OWASP Top 10 for LLM Applications 2026 (current list, published 3 August 2026): https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/
 5. OWASP LLM Top 10 repo: https://github.com/OWASP/www-project-top-10-for-large-language-model-applications
 
 ### Level 2: building and connecting tools
@@ -307,7 +305,7 @@ Safe rules:
 1. ISO/IEC 42001:2023 standard overview: https://www.iso.org/standard/42001
 2. ISO 42001 explained: https://www.iso.org/home/insights-news/resources/iso-42001-explained-what-it-is.html
 3. NIST GenAI profile (AI RMF profile for GenAI, NIST AI 600-1) (PDF): https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
-4. EU AI Act (Regulation (EU) 2024/1689): https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+4. EU AI Act (Regulation (EU) 2024/1689): https://eur-lex.europa.eu/eli/reg/2024/1689/oj, as amended by Regulation (EU) 2026/1744 of 8 July 2026, in force 27 July 2026: http://data.europa.eu/eli/reg/2026/1744/oj; the timetable as amended is in the EU AI Act currency note: https://github.com/rolldabones/ai-governance-for-boards/blob/main/05-jurisdictions/eu.md#eu-ai-act-currency-note
 
 ### Reading Map (by role)
 - Executives and functional leaders
@@ -329,7 +327,7 @@ Safe rules:
 - Legal and compliance
   1. ISO/IEC 42001 overview (Level 3, item 1)
   2. NIST AI RMF 1.0 (PDF) (Level 1, item 2)
-  3. EU AI Act (Regulation (EU) 2024/1689) (Level 3, item 4)
+  3. EU AI Act (Regulation (EU) 2024/1689, as amended by Regulation (EU) 2026/1744) (Level 3, item 4)
   4. OWASP Top 10 for LLM Applications (Level 1, item 4)
 
 - Engineering and product

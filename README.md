@@ -25,22 +25,22 @@ By the end of this workshop participants will be able to:
 |---|---|
 | [facilitator-guide.md](facilitator-guide.md) | Timed 8-hour agenda, materials, the 23 teaching notes, the five modules, the operating checklist |
 | [participant-handout.md](participant-handout.md) | Sections 0 to 11 and 14; the eight controls are stated once, in 2.4 |
-| [tool-map.md](tool-map.md) | 41 tools in 18 categories, dated; links last verified 14 July 2026 |
+| [tool-map.md](tool-map.md) | 41 tools in 18 categories (17 with entries; Agentic coding tools is open), dated; links re-checked 20 October 2026 |
 | [builder-primer.md](builder-primer.md) | Websites and webapps for novices; standalone, outside the objectives |
 
 ## Regulatory and standards currency
 
-Framework and standards references in this document were verified on 14 July 2026 (KST), the MCP and EU AI Act lines re-verified on 15 October 2026 (KST):
+Framework and standards references in this document were verified on 14 July 2026 (KST), the MCP and EU AI Act lines re-verified on 15 October 2026 (KST) and the OWASP and MCP lines corrected on 20 October 2026 (KST):
 
 - **NIST AI RMF 1.0** (NIST AI 100-1, January 2023) remains the current published version. NIST states the AI RMF 1.0 is being revised pursuant to America's AI Action Plan; no revised version has been published as of the verification date. The Generative AI Profile (NIST AI 600-1, July 2024) remains current.
 - **ISO/IEC 42001:2023** (Edition 1, published December 2023) is the current edition of the AI management system standard.
-- **OWASP Top 10 for LLM Applications**: the current list is the 2025 edition, maintained under the OWASP GenAI Security Project (genai.owasp.org). The owasp.org project page hosts the archived v1.1 (2023) list.
-- **MCP specification**: ~~the current stable revision is 2025-11-25. A 2026-07-28 revision is at release-candidate stage with final publication targeted for 28 July 2026; links here will be reviewed after that release.~~ Superseded 15 October 2026 (KST): the 2026-07-28 revision is published at modelcontextprotocol.io/specification/2026-07-28 and is current. Its base protocol is "Stateless, self-contained requests" with per-request capability negotiation; client features list Elicitation only, Sampling and Roots having left the core protocol; Tasks, Skills over MCP and MCP Apps are opt-in extensions. The three links in this document were re-pointed on that date, which is the review the 14 July 2026 note promised and the two patch releases since did not log.
+- **OWASP Top 10 for LLM Applications**: the current list is the 2026 edition (OWASP Top 10 for LLM Applications 2026, published 3 August 2026), maintained under the OWASP GenAI Security Project (genai.owasp.org/resource/owasp-genai-llm-top-10-2026/). The owasp.org project page now points readers to the OWASP GenAI Security Project at genai.owasp.org.
+- **MCP specification**: the 2026-07-28 revision is published at modelcontextprotocol.io/specification/2026-07-28 and is current. Its base protocol is "Stateless, self-contained requests" with per-request capability negotiation; client features list Elicitation only; Roots, Sampling and Logging are deprecated in the 2026-07-28 revision (SEP-2577) and stay functional for at least twelve months; Tasks, Skills over MCP and MCP Apps are opt-in extensions.
 - **EU AI Act** (Regulation (EU) 2024/1689, as amended by Regulation (EU) 2026/1744 of 8 July 2026, in force 27 July 2026, which defers Annex III high-risk obligations to 2 December 2027 and Annex I to 2 August 2028) is cited as a reading reference only; the timetable as amended is stated once for the account in the [EU AI Act currency note](https://github.com/rolldabones/ai-governance-for-boards/blob/main/05-jurisdictions/eu.md#eu-ai-act-currency-note) in ai-governance-for-boards, and current status should be verified with counsel at time of use.
 
 This is a training reference, not a compliance representation. Verify the current status of any framework, standard or regulation before relying on it.
 
-Primary sources: [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework), [ISO/IEC 42001](https://www.iso.org/standard/42001), [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/), [MCP specification](https://modelcontextprotocol.io/specification/2026-07-28) and [Regulation (EU) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj); the full reading list is [participant-handout.md](participant-handout.md) section 14.
+Primary sources: [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework), [ISO/IEC 42001](https://www.iso.org/standard/42001), [OWASP Top 10 for LLM Applications 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/), [MCP specification](https://modelcontextprotocol.io/specification/2026-07-28) and [Regulation (EU) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj); the full reading list is [participant-handout.md](participant-handout.md) section 14.
 
 ---
 
