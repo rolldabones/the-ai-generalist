@@ -2,6 +2,11 @@
 
 All notable changes to this repository are documented here. Versioning follows [Semantic Versioning](https://semver.org/). The README and this file version in lockstep; prior versions are superseded, never silently overwritten.
 
+## v2.0.3 (2026-11-03)
+
+- `participant-handout.md`: "Section numbers are kept from v1.1.4" reads "The section numbers are shared with the other workshop files"; the sections and their content are unchanged.
+- All file headers, How to Cite and `CITATION.cff` to v2.0.3 in lockstep. Train C of the improvement rotation (review of 24 October 2026). Prepared with Claude, approved by Michael Paik.
+
 ## v2.0.2 (2026-10-20)
 
 Patch release. Independent review of 20 October 2026; changes made with Claude, approved by Michael Paik.
