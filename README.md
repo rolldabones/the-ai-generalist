@@ -1,6 +1,6 @@
 # The AI Generalist
 
-**v2.0.3 · 3 November 2026 (KST) · One-day corporate workshop · License: CC BY-NC-SA 4.0**
+**v2.0.4 · 9 November 2026 (KST) · One-day corporate workshop · License: CC BY-NC-SA 4.0**
 
 A durable operating method for working professionals: what an LLM is, a repeatable prompting workflow, a tool selection map, governed workflow patterns and an AI governance, risk management and compliance (AI GRC) minimum control set. Usable as a participant primer, an instructor runbook and a reference map with live links.
 
@@ -66,9 +66,13 @@ Nearest neighbors:
 4. Build small, ship safely, iterate.
 5. Final Liability rests with the Human.
 
+## License
+
+CC BY-NC-SA 4.0 ([LICENSE](LICENSE)). Commercial use, including a Client's use in its own operations, is set out in [LICENSING.md](https://github.com/rolldabones/rolldabones/blob/main/LICENSING.md).
+
 ## How to Cite
 
-> Paik, Son-U Michael. *The AI Generalist*, v2.0.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/the-ai-generalist
+> Paik, Son-U Michael. *The AI Generalist*, v2.0.4. GRC Solutions Korea, 2026. https://github.com/rolldabones/the-ai-generalist
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

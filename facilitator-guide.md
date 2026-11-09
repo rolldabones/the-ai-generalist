@@ -2,7 +2,7 @@
 
 Son-U Michael Paik · CEO, GRC Solutions Korea
 
-**v2.0.3 · 3 November 2026 (KST)**
+**v2.0.4 · 9 November 2026 (KST)**
 
 The runbook for the one-day workshop. Participants read [participant-handout.md](participant-handout.md); the tool map is [tool-map.md](tool-map.md); the learning objectives, currency note and citation are in [README.md](README.md). The control set is stated once, in the handout's section 2.4, and nothing here varies it.
 
