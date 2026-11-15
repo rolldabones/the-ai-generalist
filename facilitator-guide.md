@@ -2,7 +2,7 @@
 
 Son-U Michael Paik · CEO, GRC Solutions Korea
 
-**v2.0.4 · 9 November 2026 (KST)**
+**v2.1.0 · 15 November 2026 (KST)**
 
 The runbook for the one-day workshop. Participants read [participant-handout.md](participant-handout.md); the tool map is [tool-map.md](tool-map.md); the learning objectives, currency note and citation are in [README.md](README.md). The control set is stated once, in the handout's section 2.4, and nothing here varies it.
 
@@ -12,7 +12,7 @@ Times are shown for a 09:00 start; shift them as a block. Handout sections are c
 
 | Block | Duration | Purpose | Facilitation steps with timings | Exercise | Expected artifact |
 |---|---|---|---|---|---|
-| 1. Contract and posture (09:00) | 90 min | Agree how the day works and why experience and context are the participant's leverage (handout 0 to 2) | Objectives read aloud and weighted by the room (10); workshop contract and Definition of Done (15); posture and the missing-context drill (25); the three doctrines and the eight controls of 2.4 (30); questions (10) | Missing-context drill (1.2); name, not role, for one live use case (2.3) | Weighted objectives list; one named owner per use case raised |
+| 1. Contract and posture (09:00) | 90 min | Agree how the day works and why experience and context are the participant's leverage (handout 0 to 2) | Objectives read aloud and weighted by the room (10); workshop contract and Definition of Done (15); posture and the missing-context drill (25); the three doctrines and the eight controls of 2.4 (30); questions (10) | Missing-context drill (1.2); a name with the three attributes, not a role, for one live use case (2.3) | Weighted objectives list; one named owner per use case raised |
 | Break (10:30) | 15 min | | | | |
 | 2. Foundations and prompting (10:45) | 90 min | What an LLM is, why its failure modes are predictable and how to prompt as a professional (handout 3 to 5) | Stack map and pipeline (15); 3.3 implications including context window, RAG, agents and thinking models (15); Magic Prompt and the 4-pass workflow (20); Module 1 (30); debrief with bad prompt against improved prompt (10) | Module 1: Prompt upgrade | One Magic Prompt template per participant, stored in the agreed format |
 | Lunch (12:15) | 45 min | | | | |
@@ -34,19 +34,19 @@ Modules 4 (voice agent tabletop) and 5 may swap; Module 4 fits a room with intak
 
 ## Teaching notes by handout section
 
-Each note stood in the participant text at v1.1.4 as a parenthetical; the text is unchanged. Notes for the Learning Objectives refer to README.md; the others to the handout section named.
+Notes for the Learning Objectives refer to README.md; the others to the handout section named.
 
 ### Learning Objectives (README.md)
 - Read the objectives aloud. Ask participants to pick one objective they care about most. Use that to weight time allocation.
 
 ### 1) Workshop posture
-- 1.1 Become an AI Generalist to surf the tsunami: Make the promise explicit. This is a repeatable operating method, not hype.
+- 1.1 Become an AI Generalist: Make the promise explicit. This is a repeatable operating method, not hype.
 - 1.2 Your leverage is experience and context: Run the “missing context” drill: “Draft a policy.” Then ask: “What does the model not know about our regulators, customers, systems and internal risk appetite?” Capture answers.
-- 1.3 Learn by building, but govern the build: Curiosity is allowed. Production changes require controls and sign-off.
+- 1.3 Learn by building, but govern the build: Curiosity is allowed, on synthetic data. Any AI system that acts on the organization's behalf needs its authorization first (2.2), and a change to it goes through change management (control 8).
 
 ### 2) Slow AI, Informed Intent, Final Liability and AI governance, risk management and compliance (AI GRC)
-- 2.2 Informed Intent (authorization gate): Informed Intent is the gate before the build. An authorization missing its exit is not an authorization. Slow AI is the condition the workflow must meet before the authorization issues and for as long as it runs. If nobody can produce the authorization, the workflow is ungoverned by definition.
-- 2.3 Final Liability rests with the Human (accountability rule): Ask for a name, not a role. “Who signs it” is the fastest truth test.
+- 2.2 Informed Intent (authorization gate): **Informed Intent** is the gate before the build. An authorization missing its exit is not an authorization. **Slow AI** is the condition the workflow must meet before the authorization issues and for as long as it runs. If nobody can produce the authorization, the workflow is ungoverned by definition.
+- 2.3 Final Liability rests with the Human (accountability rule): Ask for a name, not a role. Then ask what the named person holds: decision rights, oversight and the power to intervene. A name without the three is a nominee.
 
 ### 3) Foundations: what an LLM is and why failure modes are predictable
 - 3.1 The “AI stack” nesting map (operational, not academic): Keep this short. The goal is operational understanding.
@@ -64,7 +64,7 @@ Each note stood in the participant text at v1.1.4 as a parenthetical; the text i
 
 ### 7) Mix and remix: how AI Generalists build workflows
 - 7.1 Pattern 1: Prompt → structured output → reuse: Have participants build one template: meeting brief, outreach email, policy draft, due diligence checklist, sales enablement memo.
-- 7.2 Pattern 2: Front door prompt → backend orchestration → UI: Modularity matters. Prompt is a spec. Orchestration is control. UI is adoption.
+- 7.2 Pattern 2: Front door prompt → backend orchestration → UI: Modularity matters: the prompt carries the specification, the orchestration layer carries the permissions and the logs, and the UI carries adoption.
 - 7.3 Pattern 3: Voice agents with Vapi: Keep it to safe scenarios: intake, triage, scheduling, internal helpdesk.
 
 ### 8) Essential concepts for safe agentic work
@@ -82,7 +82,7 @@ Each note stood in the participant text at v1.1.4 as a parenthetical; the text i
 - Pick 2–3 based on audience. For each: define decision owner, data classification and stop rules.
 
 ## 12) Practical exercises (workshop-ready modules)
-(Teaching note: Each module is 20–40 minutes. Pick 3–5 depending on time.)
+(Teaching note: Each module is 20–40 minutes. The agenda runs Modules 1, 2, 3 and 5; Module 4 swaps for Module 5.)
 
 ### Module 1: Prompt upgrade
 - Take a synthetic task prompt
@@ -90,9 +90,30 @@ Each note stood in the participant text at v1.1.4 as a parenthetical; the text i
 - Add verification: assumptions, unknowns, self-check
 - Compare outputs
 
+Worked example, synthetic. The task as first written: “Summarize this vendor contract.” The same task in the Magic Prompt structure of handout 4.1:
+
+1. Role: you are a contracts analyst supporting an in-house legal team.
+2. Objective: a one-page summary a procurement manager can act on without reading the contract.
+3. Context: the contract is a three-year software subscription between Company A (buyer) and Company B (vendor); the reader is not a lawyer.
+4. Instructions: summarize term, fees, renewal, termination, liability cap and data handling; give the clause number for each; do not infer a term the text does not state.
+5. Output spec: a table with the columns Topic, Clause, What it says and Action for procurement; 300 words at most.
+6. Verification: list every assumption, mark anything not found “Unknown/Insufficient data” and name the clauses read.
+
+The contract text is written for the exercise; no real agreement enters a tool.
+
 ### Module 2: Tool bake-off
 - Same task across ChatGPT, Claude, Gemini, Perplexity; participants run the assistants they have accounts on and the facilitator demonstrates the rest on screen
 - Score correctness, usefulness, structure and edit effort
+
+| Criterion | 0 | 1 | 2 |
+|---|---|---|---|
+| Correctness | a material error or an invented fact | minor errors, none that would change the decision | every checkable statement holds against the source |
+| Usefulness | does not answer the task | answers part of it | the reader can act on it as it stands |
+| Structure | no usable format | the format asked for, with gaps | the format asked for, complete |
+| Edit effort | faster to rewrite than to edit | needs substantial edits | needs light edits or none |
+
+Each criterion scores 0 to 2, for a total of 8 at most. The default tool for a task type is the highest total; a 0 on correctness rules a tool out for that task type whatever its total.
+
 - Choose a default tool by task type
 - Exercise data rule: synthetic inputs only; no Client data, no personal data and no confidential material enters any tool during the bake-off (control 2 of participant-handout.md section 2.4)
 
@@ -116,6 +137,23 @@ Each note stood in the participant text at v1.1.4 as a parenthetical; the text i
 | 8 | Review | the human gate, who reviews which outputs and when |
 | 9 | Tier | the risk tier and why |
 | 10 | Done-when | the acceptance test the first run must pass |
+
+The spec is the workflow's specification, not its authorization. Before a Tiny Servant runs, a human who meets the five authorizer conditions (Knowledge, Evidence, Authority, Time, Permission) authorizes it under handout 2.2; lines 1, 4 and 6 carry the purpose, the boundaries and the exit, and the authorization adds the authority.
+
+Worked example, synthetic:
+
+| Line | Field | Written |
+|---|---|---|
+| 1 | Purpose | Draft the weekly status summary from the team's project tracker |
+| 2 | Inputs | The tracker export (task, owner, status, due date), from the project lead, every Friday |
+| 3 | Outputs | A one-page summary in the team template, to the project lead only |
+| 4 | Boundaries | Reads the export and nothing else; drafts and does not send; no Client names or personal data in the export; flags a task more than five days overdue and does not explain it |
+| 5 | Owner | The project lead, by name, who decides what is sent, reviews every draft and can switch the workflow off |
+| 6 | Exit | Paused by the owner at any time; rolled back to the manual summary; retired when the tracker is replaced |
+| 7 | Evidence | For each week: the export, the draft, the prompt and model version, the owner's approval and any exception |
+| 8 | Review | The owner reads every draft before it is sent |
+| 9 | Tier | Low: internal, no decision about a person, a human sends |
+| 10 | Done-when | The first draft matches the tracker on every task, owner and due date |
 
 ### Module 4: Voice agent tabletop
 - Define a safe inbound scenario

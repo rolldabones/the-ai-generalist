@@ -2,9 +2,9 @@
 
 Son-U Michael Paik · CEO, GRC Solutions Korea
 
-**v2.0.4 · 9 November 2026 (KST)**
+**v2.1.0 · 15 November 2026 (KST)**
 
-Standalone; outside the workshop objectives. Section 15 of the workshop as it stood at v1.1.4, for novices building a website or a webapp with AI assistance.
+Standalone; outside the workshop objectives. For novices building a website or a webapp with AI assistance; section 15 in the workshop's shared numbering.
 
 ## Builder Primer: websites and webapps, for novices (standalone)
 

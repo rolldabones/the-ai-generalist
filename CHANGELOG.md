@@ -2,6 +2,18 @@
 
 All notable changes to this repository are documented here. Versioning follows [Semantic Versioning](https://semver.org/). The README and this file version in lockstep; prior versions are superseded, never silently overwritten.
 
+## v2.1.0 (2026-11-15)
+
+Minor release. Rotation slot of 15 November 2026 (KST), worked out of sequence on Michael Paik's instruction of that day; the findings of the account review of 10 November 2026 for this repository were tested against v2.0.4 and the fix order approved by him. Prepared with Claude, approved by Michael Paik.
+
+- **Doctrine (participant-handout.md, facilitator-guide.md).** Handout 2.1: the Explained test no longer carries "enough for the decision at hand", which DOCTRINE.md section 1 does not. Handout 2.2: the five authorizer conditions are in the section 8 list form. Guide, note 2.3: a name is asked for with the three attributes, and a name without them is called a nominee; "Who signs it" is removed. Guide, note 1.3: the limit of authorization to production changes, removed from handout 2.2 at v2.0.2, is removed here too. Guide, Module 3: one paragraph states that the ten-line spec is the specification and not the authorization, which a human meeting the five authorizer conditions gives under handout 2.2. Doctrine names are bold on first prose appearance in both files; the section 8 wording is untouched.
+- **Currency (README.md).** Each line of the Regulatory and standards currency section carries its own as-at date. Read on 15 November 2026 (KST): the NIST framework page, whose sentence on the revision is now quoted ("as part of the White House AI Action Plan", where the line said "pursuant to America's AI Action Plan"); the OWASP Top 10 for LLM Applications 2026 page; the MCP 2026-07-28 specification page, to which modelcontextprotocol.io/specification/latest resolves. Not re-verified and not re-dated: the ISO/IEC 42001 line (14 July 2026), the owasp.org sentence and the MCP deprecation clause (20 October 2026) and the EU AI Act line (15 October 2026). The primary-source line links Regulation (EU) 2026/1744. "In this document" is gone with the old lead sentence.
+- **Completions within the stated scope (participant-handout.md, facilitator-guide.md).** Handout 0.3, Definition of Done, states the four artifacts a participant leaves with, taken from 0.2 and the agenda. Module 2 gains a 0 to 2 scale for its four scoring criteria and the rule for choosing a default tool. Module 1 gains a worked Magic Prompt on a synthetic task and Module 3 a filled ten-line spec. No heading, objective or scope statement changes.
+- **Consistency.** README: "a reference map of dated links", not "live links"; Objective 4's pattern reads as handout 7.2 does; the slow-ai-kitchen neighbor line no longer says the workshop compresses the twelve steps into one day. Handout 6: the tool map's corrections are dated 20 October 2026. Guide, section 12: the teaching note names the modules the agenda runs. Tool map: one as-at date in the masthead.
+- **Readability.** References to v1.1.4 are removed from facilitator-guide.md, tool-map.md and builder-primer.md. Handout 1.1 is "Become an AI Generalist" and its opening sentence is direct; the guide's note 7.2 is one sentence. The duplicate closing line at the foot of this file, recorded as an erratum under v2.0.2, is deleted.
+- **Not changed.** Four spelling findings of the review applied UK spelling to a US English account and are not followed. The guide's "ungoverned by definition" stands: under DOCTRINE.md section 4 an unauthorized system has no named owner. Not checked: whether the four addresses re-pointed on 20 October 2026 are the vendors' own.
+- **Versions.** README masthead, How to Cite, `CITATION.cff` and the four companion mastheads to v2.1.0 in lockstep.
+
 ## v2.0.4 (2026-11-09)
 
 Patch release. Train D of the improvement rotation (review of 24 October 2026). Prepared with Claude, approved by Michael Paik.
@@ -108,10 +120,6 @@ First versioned release under the repository improvement program. The pre-existi
 ## v1.0.0 (implicit)
 
 Original single-file workshop primer (README.md only; no license, changelog or tags).
-
----
-
-Final Liability rests with the Human.
 
 ---
 

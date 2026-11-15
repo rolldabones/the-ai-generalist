@@ -2,7 +2,7 @@
 
 Son-U Michael Paik · CEO, GRC Solutions Korea
 
-**v2.0.4 · 9 November 2026 (KST)**
+**v2.1.0 · 15 November 2026 (KST)**
 
 The participant text of the one-day workshop, sections 0 to 11 and 14. The section numbers are shared with the other workshop files: sections 12 (practical exercises) and 13 (operating checklist) are in the facilitator guide and section 15 is [builder-primer.md](builder-primer.md). The learning objectives, the regulatory and standards currency note and the citation are in [README.md](README.md); the tool map is [tool-map.md](tool-map.md); the facilitator's agenda, teaching notes, exercises and operating checklist are in [facilitator-guide.md](facilitator-guide.md). The eight controls are stated once, in section 2.4.
 
@@ -20,15 +20,20 @@ Participants leave with:
 - One small, working workflow spec they can reuse at work
 
 ### 0.3 Definition of Done
-This handout should be usable as:
-- Participant primer
+The day is done when each participant leaves with the four outcomes of 0.2 as artifacts to reuse at work:
+- A Magic Prompt template for one recurring task (Module 1)
+- A default-tool-by-task scorecard (Module 2)
+- A ten-line Tiny Servant spec with its gate, logging line and named owner (Module 3)
+- An operating plan: three use cases with named owners, allowed and forbidden data, gates, logging and evaluation (facilitator guide, section 13)
+
+This handout is the participant primer for that work.
 
 ---
 
 ## 1) Workshop posture
 
-### 1.1 Become an AI Generalist to surf the tsunami
-AI is now a general capability layer across functions. “Generalist” does not mean shallow. It means you can:
+### 1.1 Become an AI Generalist
+AI is now a general capability layer across functions. A generalist can:
 - Understand the core mechanism
 - Choose tools rationally
 - Build small workflows fast
@@ -54,22 +59,22 @@ Practical loop:
 ## 2) Slow AI, Informed Intent, Final Liability and AI governance, risk management and compliance (AI GRC)
 
 ### 2.1 Slow AI (precondition)
-Slow AI: AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit. In workshop terms, a workflow is:
+**Slow AI**: AI that cannot be governed, explained and audited is not deployed; the three tests are conjunctive, and the doctrine is a precondition, not a speed limit. In workshop terms, a workflow is:
 - Governed: a named owner, defined boundaries and a working intervention path, so it is visible, monitored and pausable
-- Explained: the team can state why an output was produced, in terms the person affected can use, enough for the decision at hand
+- Explained: the team can state why an output was produced, in terms the person affected can use
 - Audited: the evidence exists before it is asked for
 
 Translate posture into controls: the eight controls of section 2.4, stated there once. Versioning of prompt, model and tools and the stop rules sit inside logging (control 4) and human gates (control 3); evaluation is control 5 and change control is control 8.
 
 ### 2.2 Informed Intent (authorization gate)
-Informed Intent: no AI system acts without prior authorization stating its purpose, authority, boundaries and exit, given by a human who meets the five authorizer conditions. In workshop terms, the authorization specifies:
+**Informed Intent**: no AI system acts without prior authorization stating its purpose, authority, boundaries and exit, given by a human who meets the five authorizer conditions. In workshop terms, the authorization specifies:
 - Purpose: what the workflow is for
-- Authority: on whose authority it acts, given by a named human with the knowledge, evidence, authority, time and permission to give it
+- Authority: on whose authority it acts, given by a named human who meets the five authorizer conditions (Knowledge, Evidence, Authority, Time, Permission)
 - Boundaries: what it may and may not touch, with its data boundaries, action boundaries and tolerance thresholds
 - Exit: how the workflow is paused, rolled back and retired
 
 ### 2.3 Final Liability rests with the Human (accountability rule)
-Final Liability rests with the Human: every material outcome attaches to a named human owner with decision rights, oversight and the power to intervene. In workshop terms, the owner:
+**Final Liability rests with the Human**: every material outcome attaches to a named human owner with decision rights, oversight and the power to intervene. In workshop terms, the owner:
 - Holds the decision rights over the output
 - Holds oversight of the workflow and its limits
 - Has the power to intervene, including stopping the workflow
@@ -171,7 +176,7 @@ Selection heuristics:
 ---
 
 ## 6) Tooling map for an AI Generalist
-The tool map, forty-plus tools by category with the corrections of 18 October 2026 (KST), is [tool-map.md](tool-map.md). Tools churn; the categories are the durable layer. Re-verify every link before use.
+The tool map, forty-plus tools by category with the corrections of 20 October 2026 (KST), is [tool-map.md](tool-map.md). Tools churn; the categories are the durable layer. Re-verify every link before use.
 
 ---
 
