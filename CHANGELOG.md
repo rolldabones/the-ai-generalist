@@ -2,6 +2,14 @@
 
 All notable changes to this repository are documented here. Versioning follows [Semantic Versioning](https://semver.org/). The README and this file version in lockstep; prior versions are superseded, never silently overwritten.
 
+## v2.1.1 (2026-11-26)
+
+Final release: the archived edition. On Michael Paik's ruling of 26 November 2026, recorded in [DISPOSITION.md](https://github.com/rolldabones/rolldabones/blob/main/DISPOSITION.md): the repository is archived in place as a dated edition and receives no corrections after this release. Prepared with Claude, approved by Michael Paik.
+
+- **README:** the archive banner under the title, with the edition date, the version to cite and where the maintained work is.
+- Nothing is removed, renamed or moved, and every other file is unchanged byte for byte.
+- README and `CITATION.cff` to v2.1.1.
+
 ## v2.1.0 (2026-11-15)
 
 Minor release. Rotation slot of 15 November 2026 (KST), worked out of sequence on Michael Paik's instruction of that day; the findings of the account review of 10 November 2026 for this repository were tested against v2.0.4 and the fix order approved by him. Prepared with Claude, approved by Michael Paik.
